@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '9^9(t61y)(x-*a=amwbggjp3y!apw*hww*jmp(^sbi1i2ozv7#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'devmeet-akash.herokuapp.com']
 
@@ -45,7 +45,6 @@ INSTALLED_APPS = [
 ]
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
-
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
 
@@ -180,5 +179,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# if os.getcwd() == '/app':
-#     DEBUG = False
+if os.getcwd() == '/app':
+    DEBUG = False
