@@ -168,9 +168,9 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
-STATIC_URL = 'static'
+STATIC_URL = '/static/'
 
-MEDIA_URL = 'images'
+MEDIA_URL = '/images/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
