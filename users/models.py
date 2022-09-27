@@ -13,7 +13,7 @@ class Profile(models.Model):
     email = models.EmailField(max_length=200, null=True, blank=True)
     username = models.CharField(max_length=200, null=True, blank=True)
     location = models.CharField(max_length=200, null=True, blank=True)
-    shot_intro = models.CharField(max_length=200, null=True, blank=True)
+    shot_intro = models.CharField(max_length=200,  null=True, blank=True)
     bio = models.CharField(max_length=4000, null=True, blank=True)
     profile_image = models.ImageField(null=True, blank=True, upload_to='profiles/', default="profiles/user-default.png")
 
