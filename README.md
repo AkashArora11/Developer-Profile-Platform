@@ -59,24 +59,20 @@ Created on - 22 July, 2021
 
 <h1 align="left"> Home Page</h1>
 <p dir="auto">
-<a target="_blank" href="/AkashArora11/Developer-Profile-Platform/blob/master/Homepage.png">
 <img src="https://github.com/AkashArora11/Developer-Profile-Platform/blob/master/Homepage.png" alt="Homepage.png" style="max-width: 100%;"></a>
 </p>
 
-<h1 align="left"> Projects Page</h1>
+<h1 align="left">Projects Page</h1>
 <p dir="auto">
-<a target="_blank" href="/AkashArora11/Developer-Profile-Platform/blob/master/Projects.png">
 <img src="https://github.com/AkashArora11/Developer-Profile-Platform/blob/master/Projects.png" alt="Projects.png" style="max-width: 100%;"></a>
 </p>
 
-<h1 align="left"> User Profile Page</h1>
+<h1 align="left">User Profile Page</h1>
 <p dir="auto">
-<a target="_blank" href="/AkashArora11/Developer-Profile-Platform/blob/master/User%20Profile.png">
 <img src="https://github.com/AkashArora11/Developer-Profile-Platform/blob/master/User%20Profile.png" alt="User Profile.png" style="max-width: 100%;"></a>
 </p>
 
-<h1 align="left"> User Inbox Page</h1>
+<h1 align="left">User Inbox Page</h1>
 <p dir="auto">
-<a target="_blank" href="/AkashArora11/Developer-Profile-Platform/blob/master/Inbox.png">
 <img src="https://github.com/AkashArora11/Developer-Profile-Platform/blob/master/Inbox.png" alt="Inbox.png" style="max-width: 100%;"></a>
 </p>
